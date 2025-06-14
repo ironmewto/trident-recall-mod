@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "tridentrecallmod",
+  "version": "1.0.0",
+  "name": "Trident Recall Mod",
+  "description": "Mod simple qui empêche le retour automatique du trident et permet de le rappeler avec la touche R",
+  "authors": [
+    "ChatGPT"
+  ],
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.tridentmod.MainMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "1.20.1"
+  }
+}
